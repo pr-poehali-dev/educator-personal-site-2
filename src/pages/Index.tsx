@@ -295,7 +295,7 @@ const Index = () => {
                 className="font-cormorant font-light leading-tight"
                 style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)", color: "var(--ink)" }}
               >
-                Услуги
+                О моих уроках
               </h2>
             </div>
             <p className="font-golos text-sm max-w-xs leading-relaxed" style={{ color: "var(--stone)" }}>
