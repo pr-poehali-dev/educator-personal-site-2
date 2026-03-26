@@ -333,6 +333,59 @@ const Index = () => {
         </div>
       </section>
 
+      {/* GALLERY */}
+      <section className="py-24 md:py-36 px-6 md:px-12">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16">
+            <p className="font-golos text-xs font-semibold tracking-[0.3em] uppercase mb-4" style={{ color: "var(--ochre)" }}>
+              Как это выглядит
+            </p>
+            <h2 className="font-cormorant font-light leading-tight" style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)", color: "var(--ink)" }}>
+              Примеры занятий
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              {
+                url: "https://cdn.poehali.dev/projects/ec5a9b18-490e-43ce-97e7-6942f7af99a5/bucket/00dffc5c-0f7f-4b58-bdce-1bfeb6af2baa.jpg",
+                label: "Outcomes el-2",
+                span: "md:col-span-2 md:row-span-2",
+              },
+              {
+                url: "https://cdn.poehali.dev/projects/ec5a9b18-490e-43ce-97e7-6942f7af99a5/bucket/66ce0145-ac9c-43b2-a8e1-a3b8e3b0b707.jpg",
+                label: "Outcome el-1",
+                span: "",
+              },
+              {
+                url: "https://cdn.poehali.dev/projects/ec5a9b18-490e-43ce-97e7-6942f7af99a5/bucket/e8e5ba5b-7651-4679-a347-a5eae34595cf.jpg",
+                label: "Speakout B1",
+                span: "",
+              },
+              {
+                url: "https://cdn.poehali.dev/projects/ec5a9b18-490e-43ce-97e7-6942f7af99a5/bucket/8c65241d-5b8d-4103-97d3-919ff6986bb9.jpg",
+                label: "Super Minds",
+                span: "col-span-2",
+              },
+            ].map((img) => (
+              <div key={img.url} className={`group relative overflow-hidden hover-lift ${img.span}`} style={{ minHeight: "200px" }}>
+                <img
+                  src={img.url}
+                  alt={img.label}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  style={{ minHeight: "200px" }}
+                />
+                <div className="absolute inset-0 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                  style={{ background: "linear-gradient(to top, rgba(59,31,26,0.85) 0%, transparent 60%)" }}>
+                  <span className="font-golos text-xs font-semibold tracking-wider uppercase" style={{ color: "var(--ochre)" }}>
+                    {img.label}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-24 md:py-36 px-6 md:px-12">
         <div className="max-w-3xl mx-auto">
