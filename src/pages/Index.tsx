@@ -250,7 +250,7 @@ const Index = () => {
           <div className="order-1 md:order-2">
             <p
               className="font-golos text-xs font-semibold tracking-[0.3em] uppercase mb-4"
-              style={{ color: "var(--ochre)" }}
+              style={{ color: "var(--ink)" }}
             >
               Обо мне
             </p>
