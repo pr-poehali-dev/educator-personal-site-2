@@ -541,6 +541,12 @@ const Index = () => {
                 Отправить заявку
                 <Icon name="ArrowRight" size={16} />
               </button>
+              <div className="mt-4 px-4 py-3 text-center" style={{ border: "1px solid rgba(247,244,239,0.12)", background: "rgba(245,226,122,0.06)" }}>
+                <p className="font-golos text-xs leading-relaxed" style={{ color: "rgba(247,244,239,0.6)" }}>
+                  <span className="font-semibold" style={{ color: "var(--ochre)" }}>Первое занятие — бесплатно.</span>{" "}
+                  Познакомимся, определим уровень, цели и формат работы.
+                </p>
+              </div>
             </form>
           </div>
         </div>
