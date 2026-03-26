@@ -334,13 +334,13 @@ const Index = () => {
       </section>
 
       {/* GALLERY */}
-      <section className="py-24 md:py-36 px-6 md:px-12">
+      <section className="py-24 md:py-36 px-6 md:px-12" style={{ background: "var(--ink)" }}>
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <p className="font-golos text-xs font-semibold tracking-[0.3em] uppercase mb-4" style={{ color: "var(--ochre)" }}>
               Как это выглядит
             </p>
-            <h2 className="font-cormorant font-light leading-tight" style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)", color: "var(--ink)" }}>
+            <h2 className="font-cormorant font-light leading-tight" style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)", color: "var(--cream)" }}>
               Примеры занятий
             </h2>
           </div>
