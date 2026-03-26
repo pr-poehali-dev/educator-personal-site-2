@@ -35,12 +35,12 @@
     --radius: 0rem;
 
     /* Custom palette */
-    --ink: #1a1714;
-    --cream: #f7f4ef;
-    --ochre: #d4a017;
-    --ochre-light: #e8b84b;
-    --stone: #8a8078;
-    --paper: #ede8df;
+    --ink: #3b1f1a;
+    --cream: #f9eff0;
+    --ochre: #f5e27a;
+    --ochre-light: #f9eda0;
+    --stone: #9c7a7a;
+    --paper: #f0dde0;
   }
 }
 
