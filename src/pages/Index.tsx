@@ -211,7 +211,7 @@ const Index = () => {
         >
           {[
             ["5+", "лет опыта"],
-            ["A1→B1", "все уровни"],
+            ["A0→B1", "все уровни"],
           ].map(([num, label]) => (
             <div key={label}>
               <p className="font-cormorant text-4xl font-semibold" style={{ color: "var(--ochre)" }}>
