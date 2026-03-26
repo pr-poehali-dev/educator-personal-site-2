@@ -230,10 +230,11 @@ const Index = () => {
               className="aspect-[3/4] max-w-sm mx-auto md:mx-0 relative overflow-hidden"
               style={{ background: "var(--paper)" }}
             >
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 opacity-30">
-                <Icon name="User" size={64} />
-                <span className="font-golos text-sm">Ваше фото</span>
-              </div>
+              <img
+                src="https://cdn.poehali.dev/projects/ec5a9b18-490e-43ce-97e7-6942f7af99a5/bucket/3d7c316e-dedb-4933-aa14-e61b8cd66784.jpg"
+                alt="Анна Дмитриевна"
+                className="w-full h-full object-cover object-top"
+              />
               <div className="absolute bottom-0 left-0 right-0 h-1" style={{ background: "var(--ochre)" }} />
             </div>
             <div
