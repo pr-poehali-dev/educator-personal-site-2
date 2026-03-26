@@ -271,17 +271,7 @@ const Index = () => {
                 Образование: Уральский государственный педагогический университет (УрГПУ).
               </p>
             </div>
-            <div className="mt-8 flex flex-wrap gap-3">
-              {["CELTA", "Уровни A1–C1", "Онлайн", "Индивидуально"].map((tag) => (
-                <span
-                  key={tag}
-                  className="font-golos text-xs font-semibold px-3 py-1.5 tracking-wide"
-                  style={{ border: "1px solid var(--ink)", color: "var(--ink)" }}
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+
           </div>
         </div>
       </section>
