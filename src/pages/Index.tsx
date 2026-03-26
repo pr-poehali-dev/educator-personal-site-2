@@ -180,6 +180,9 @@ const Index = () => {
           >
             Онлайн-занятия для тех, кто хочет не просто учить слова — а начать по-настоящему общаться.
           </p>
+          <p className="font-golos text-sm mb-6 animate-fade-up" style={{ color: "var(--ochre)", animationDelay: "0.4s", opacity: 0 }}>
+            ✦ Первое занятие — бесплатно
+          </p>
           <div
             className="flex flex-col sm:flex-row gap-4 animate-fade-up"
             style={{ animationDelay: "0.5s", opacity: 0 }}
@@ -453,7 +456,7 @@ const Index = () => {
               Запишитесь<br /><em style={{ color: "var(--ochre)" }}>на первый</em><br />урок
             </h2>
             <p className="font-golos text-base mb-10 leading-relaxed" style={{ color: "rgba(247,244,239,0.55)" }}>
-              Первое занятие — знакомство: определим ваш уровень, цели и формат работы. Без обязательств.
+              Первое занятие — бесплатное знакомство: определим ваш уровень, цели и формат работы. Без обязательств.
             </p>
             <div className="space-y-4">
               {[
