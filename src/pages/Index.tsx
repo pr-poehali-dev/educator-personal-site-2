@@ -258,7 +258,7 @@ const Index = () => {
               className="font-cormorant font-light leading-tight mb-6"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)", color: "var(--ink)" }}
             >
-              Анна Иванова —<br /><em>преподаватель</em><br />с живым подходом
+              Анна Дмитриевна —<br /><em>преподаватель</em><br />с живым подходом
             </h2>
             <div className="space-y-4 font-golos text-base leading-relaxed" style={{ color: "var(--stone)" }}>
               <p>
@@ -268,7 +268,7 @@ const Index = () => {
                 Каждое занятие строится вокруг реальных ситуаций, а не грамматических таблиц. Мой подход — это среда, в которой говорить интереснее, чем молчать.
               </p>
               <p>
-                Образование: лингвистический факультет, международный сертификат CELTA. Работала с учениками от Москвы до Лондона.
+                Образование: Уральский государственный педагогический университет (УрГПУ).
               </p>
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
